@@ -39,3 +39,12 @@ next-env.d.ts
 
 dist/
 public/
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/copilot.data.migration.ask2agent.xml
+/.idea/modules.xml
+/.idea/prettier.xml
+/.idea/codeStyles/Project.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/shadcn-registry-template-github-pages.iml
+/.idea/vcs.xml
