@@ -35,9 +35,9 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
-          token: ${{ secrets.GH_TOKEN_PAGES }}
+#        with:
+#          enablement: true
+#          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set environment variables
         run: |
