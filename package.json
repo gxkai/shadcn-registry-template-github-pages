@@ -18,7 +18,8 @@
     "lint": "eslint .",
     "registry:build": "shadcn registry:build",
     "upgrade:shadcn": "npx --yes shadcn@canary add --all --overwrite --yes",
-    "upgrade:packages": "pnpx npm-check-updates --interactive --format group"
+    "upgrade:packages": "pnpx npm-check-updates --interactive --format group",
+    "release": "bumpp"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.7",
@@ -38,6 +39,7 @@
     "zod": "^3.25.67"
   },
   "devDependencies": {
+    "bumpp": "^10.1.0",
     "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/vite": "^4.1.11",
